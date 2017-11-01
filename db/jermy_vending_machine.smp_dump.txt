@@ -1,0 +1,13 @@
+
+State Machine - |dazmarlah_machine|present_st
+Name present_st.state_9 present_st.state_8 present_st.state_7 present_st.state_6 present_st.state_5 present_st.state_4 present_st.state_3 present_st.state_2 present_st.state_1 present_st.state_0 
+present_st.state_0 0 0 0 0 0 0 0 0 0 0 
+present_st.state_1 0 0 0 0 0 0 0 0 1 1 
+present_st.state_2 0 0 0 0 0 0 0 1 0 1 
+present_st.state_3 0 0 0 0 0 0 1 0 0 1 
+present_st.state_4 0 0 0 0 0 1 0 0 0 1 
+present_st.state_5 0 0 0 0 1 0 0 0 0 1 
+present_st.state_6 0 0 0 1 0 0 0 0 0 1 
+present_st.state_7 0 0 1 0 0 0 0 0 0 1 
+present_st.state_8 0 1 0 0 0 0 0 0 0 1 
+present_st.state_9 1 0 0 0 0 0 0 0 0 1 

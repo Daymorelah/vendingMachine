@@ -1,0 +1,36 @@
+|dazmarlah_machine
+fifty_in => next_state.OUTPUTSELECT
+fifty_in => next_state.OUTPUTSELECT
+fifty_in => next_state.OUTPUTSELECT
+fifty_in => Selector1.IN3
+hund_in => next_state.OUTPUTSELECT
+hund_in => next_state.OUTPUTSELECT
+hund_in => next_state.DATAA
+twohund_in => next_state.DATAA
+twohund_in => next_state.DATAA
+fifty_out <= fifty_out.DB_MAX_OUTPUT_PORT_TYPE
+hund_out <= hund_out.DB_MAX_OUTPUT_PORT_TYPE
+twohund_out <= twohund_out.DB_MAX_OUTPUT_PORT_TYPE
+botl_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+clk => present_st~1.DATAIN
+rst => present_st~3.DATAIN
+temp[0] => LessThan0.IN6
+temp[0] => LessThan1.IN6
+temp[0] => LessThan2.IN6
+temp[0] => LessThan3.IN6
+temp[0] => LessThan4.IN6
+temp[0] => LessThan5.IN6
+temp[1] => LessThan0.IN5
+temp[1] => LessThan1.IN5
+temp[1] => LessThan2.IN5
+temp[1] => LessThan3.IN5
+temp[1] => LessThan4.IN5
+temp[1] => LessThan5.IN5
+temp[2] => LessThan0.IN4
+temp[2] => LessThan1.IN4
+temp[2] => LessThan2.IN4
+temp[2] => LessThan3.IN4
+temp[2] => LessThan4.IN4
+temp[2] => LessThan5.IN4
+
+
